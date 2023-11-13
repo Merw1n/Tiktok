@@ -1,0 +1,50 @@
+.criteriainput {
+    &__container {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px;
+        box-shadow: 0px 4px 24px 0px #CDCDCD40;
+        border-radius: 8px;
+        h2 {
+            margin-bottom: 12px;
+        }
+    }
+    &__field {
+        &__container {
+            border: 1px solid #E7E9EE;
+            border-radius: 8px;
+            width: 100%;
+            min-height: 55px;
+            padding: 8px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0em;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            input {
+                border: none;
+                outline: none;
+            }
+        }
+    }
+    &__item {
+        display: flex;
+        gap: 4px;
+        padding: 8px 12px;
+        align-items: center;
+        background-color: #F9FAFB;
+        border-radius: 8px;
+        border: 1px solid #E7E9EE;
+        width: fit-content;
+        cursor: pointer;
+    }
+    &__delete {
+        display: flex;
+        align-items: center;
+    }
+}

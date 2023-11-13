@@ -1,0 +1,21 @@
+.generated {
+    &__container {
+        background-color: white;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 24px 0px #CDCDCD40;
+        display: flex;
+        gap: 16px;
+        align-items: start;
+    }
+    &__text {
+        padding: 32px;
+        border-radius: 8px;
+        background-color: #F9FAFB;
+        border: 1px solid #E7E9EE;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+    }
+}
