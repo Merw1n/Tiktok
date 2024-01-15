@@ -57,9 +57,6 @@ const TaskInput = () => {
           })}
         </div>
         <div className="taskinput__input__field">
-          {activePoint && (
-            <span className="taskinput__input__key">{`{{${activePoint}}} `}</span>
-          )}
           {Object.entries(userData).map((entity, index) => {
             return (
               entity[1] && (
@@ -72,6 +69,9 @@ const TaskInput = () => {
               )
             );
           })}
+          {activePoint && (
+            <span className="taskinput__input__key">{`{{${activePoint}}} `}</span>
+          )}
           <input
             ref={inputRef}
             value={inputValue}
